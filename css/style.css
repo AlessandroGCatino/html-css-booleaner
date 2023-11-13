@@ -62,7 +62,6 @@ table{
     width: 100%;
     border-collapse: collapse;
     text-align: left;
-    column-width: 25%;
 }
 
 thead{
@@ -70,9 +69,10 @@ thead{
     color: white;
 }
 
-td{
-  width: calc(100%/4);  
+th{
+    width: calc(100%/4);
 }
+
 
 .dispari{
     background-color: #b1e5f2;
