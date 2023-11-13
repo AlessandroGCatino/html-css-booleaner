@@ -5,6 +5,7 @@
 
 }
 
+/* header */
 #intestazione{
     background-color: #4ea0ff;
     background-image: url("../img/pattern.png");
@@ -12,12 +13,13 @@
     background-size: 25%;
 }
 
-#logo {
+#logo{
     margin-left: 1em;
     padding-top: 20px;
     width: 150px;
 }
 
+/* titolo e credits */
 main{
     margin-left: 1em;
 }
@@ -36,6 +38,7 @@ span{
     color: #1ea8e4;
 }
 
+/* immmagini e descrizione immagini */
 figure{
     width: 100%;
 }
@@ -44,7 +47,8 @@ figure{
     font-size: small;
 }
 
-section{
+/* articolo */
+p{
     margin-top: 1em;
     margin-bottom: 1em;
 }
@@ -58,6 +62,7 @@ ul{
     color: black;
 }
 
+/* formattazione tabella */
 table{
     width: 100%;
     border-collapse: collapse;
@@ -73,8 +78,39 @@ th{
     width: calc(100%/4);
 }
 
-
 .dispari{
     background-color: #b1e5f2;
-    
+}
+
+/* footer */
+
+footer{
+    margin-left: 1em;
+}
+
+h3{
+    color: grey;
+}
+
+.postazione{
+    height: 150px;
+    background-image: url(../img/monitor.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.grafico{
+    height: 150px;
+    background-image: url(../img/graph.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
