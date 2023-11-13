@@ -1,11 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing:content-box;
+    box-sizing: border-box;
 
 }
 
-figure{
+#intestazione{
     background-color: #4ea0ff;
     background-image: url("../img/pattern.png");
     background-repeat: repeat-x;
@@ -13,12 +13,13 @@ figure{
 }
 
 #logo {
+    margin-left: 1em;
     padding-top: 20px;
     width: 150px;
 }
 
 main{
-    margin-left: 5px;
+    margin-left: 1em;
 }
 
 #titolo{
@@ -27,9 +28,53 @@ main{
 
 blockquote{
     color: grey;
-    width: 170px;
+    width: 140px;
+    font-size: small;
 }
 
 span{
     color: #1ea8e4;
+}
+
+figure{
+    width: 100%;
+}
+
+#photo-desc{
+    font-size: small;
+}
+
+section{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+ul{
+    margin-left: 1em;
+}
+
+.evidenziate{
+    background-color: #ffff00;
+    color: black;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    column-width: 25%;
+}
+
+thead{
+    background-color: #20a9e5;
+    color: white;
+}
+
+td{
+  width: calc(100%/4);  
+}
+
+.dispari{
+    background-color: #b1e5f2;
+    
 }
